@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,700&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,700&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(imagenes/textura-fondo.jpg) ;
+}
+
+header {
+    width: 100vh;
+    height: 300px;
+    background: linear-gradient(to bottom, #e1d6ff, #f4f1fb);
+}
+
+.menu-desktop {
+    display: none;
+}
+
+
+@media (min-width760px) {
+    .menu-responsive {
+        display: none;
+    }
+}
+
+
