@@ -4,27 +4,48 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: url(imagenes/textura-fondo.jpg) ;
+    background: url(imagenes/Menu-background.jpg) ;
 }
 
 header {
-    width: 100vh;
-    height: 300px;
-    background: linear-gradient(to bottom, #e1d6ff, #f4f1fb);
-}
-
-.menu-desktop {
-    display: none;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, #a383fb, #baa2fc );
 }
 
 
-@media (min-width760px) {
-    .menu-responsive {
-        display: none;
+ li a {
+    text-decoration: none;
+    color: #fff;
+ }
+
+ @media (min-width: 600px) {
+    
+    .menu-desktop {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5rem;
+        list-style: none;
+        justify-content: flex-end;
+        gap: 4%;
+        align-items: center;
     }
+    
+     .contact-button {
+        margin-right: 55px;
+        padding: 12px 40px;
+        background-color: #5c4796 ;
+        border-radius: 50px;
+    
+     }
+
 }
 
 
