@@ -26,7 +26,11 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column; 
-    max-width: 1100px;
+    /* max-width: 1100px; */
+ }
+
+ .dates-container {
+   text-align: center;
  }
 
  .hello {
@@ -34,7 +38,7 @@ header {
     color: black;
     font-size: 3rem;
     font-weight: 600;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: 10px;
  }
 
@@ -52,8 +56,7 @@ header {
 
  .presentation p {
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 20px;
-    font-size: 1,5rem;
+    margin-bottom: 50px;
  }
 
  .presentation a {
@@ -62,22 +65,20 @@ header {
     color: #fff;
     background-color: #7b49c0 ;
     border-radius: 50px; 
-    width: 100px;
-    height: 50px;
     margin: auto;
     margin-top: 30px;
-    padding-top: 12px;
+    padding: 15px 50px;
     font-size: 1.2rem;
     
  }
 
  .presentation-img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
  }
 
 .img-container {
-    margin-top: 10px;
+    margin: auto;
 }
  /*seccion knowledges*/
 
@@ -108,39 +109,57 @@ header {
 .tools-containers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2%;
-    margin: 20px 150px;
+    gap: 10px;
     justify-content: center;
     align-content: center;
     max-width: 1100px;
+    margin: 0px 50px;
 }
 
 .tools-containers div {
    border: 1px dotted #7b49c0;
-   margin-top: 10px;
    display: grid;
    justify-content: center;
-   height: 230px;
 }
 
  .tools-containers img {
-   width: 100px;
-   margin-top: 20px;
+   width: 80px;
    padding-top: 50px;
  }
 
  .tools-containers h3 {
    text-align: center;
-   margin-bottom: 20px;
-   padding-bottom: 40px;
+   padding-top: 15px;
+   padding-bottom: 50px;
    font-size: 1.2rem;
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
  }
 
+/* Motivational phrase */
 
+.quotation-mark {
+   display: block;
+   margin: auto;
+   padding-top: 50px;
+}
+.motivational-phrase {
+   background: linear-gradient(to bottom, #a383fb, #baa2fc );
+}
 
+.motivational-phrase h3{
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   font-size: 1rem;
+   padding-bottom: 60px;
+}
 
+.motivational-phrase p {
+   font-family: 'Paytone One', sans-serif;
+   font-size: 1.5rem;
+   text-align: center;
+   margin: 20px;
+}
 
  @media (min-width: 900px) {
     
