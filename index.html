@@ -144,52 +144,58 @@
             </div>
         </div>
 
-       <form action="thanks.html">
+       <form action="thanks.html" class="form-container">
             <h2>Write me</h2>
+            
             <div>
-                <label for="imput_name">Name *</label>
-                <input type="text"
-                placeholder="p.ej.Juan"
-                name="name"
-                class=""
-                id="imput_name"
-                required
-                >   
-            </div>
+                <div>
+                    <label for="imput_name">Name *</label>
+                    <input type="text"
+                    placeholder="p.ej.Juan"
+                    name="name"
+                    class="form-name"
+                    id="imput_name"
+                    required
+                    >   
+                </div>
 
-            <div>
-                <label for="imput_lastname">Lastname *</label>
-                <input type="text"
-                placeholder="p.ej.Perez"
-                name="lastname"
-                class=""
-                id="imput_lastname"
-                required
-                >   
-            </div>
+                <div>
+                    <label for="imput_lastname">Lastname *</label>
+                    <input type="text"
+                    placeholder="p.ej.Perez"
+                    name="lastname"
+                    class=""
+                    id="imput_lastname"
+                    required
+                    >   
+                </div>
 
-            <div>
-                <label for="imput_mail">Mail *</label>
-                <input type="text"
-                placeholder="p.ej.Juan.perez@mail.com"
-                name="mail"
-                class=""
-                id="imput_mail"
-                required
-                >   
+                <div>
+                    <label for="imput_mail">Mail *</label>
+                    <input type="text"
+                    placeholder="p.ej.Juan.perez@mail.com"
+                    name="mail"
+                    class="form-mail"
+                    id="imput_mail"
+                    required
+                    >   
+                </div>
+            
+                <div>
+                    <label for="imput_text">Message</label>
+                    <textarea name="message" id="imput_text" cols="30" rows="10" class="text-form">Write your message here</textarea>
+                </div>
             </div>
-
             <div>
-                <label for="imput_text">Message</label>
-                <textarea name="message" id="imput_text" cols="30" rows="10">Write your message here</textarea>
-                <input type="submit" value="Send">
+                <input type="submit" value="Send" id="button-send">
             </div>
+        
        </form>
     </section>
 
     <!--Footer -->
     <footer>
-        <ul>
+        <ul class="footer-sections">
             <li><a href="">Hola</a></li>
             <li><a href="">Conocimientos</a></li>
             <li><a href="">Proyectos</a></li>

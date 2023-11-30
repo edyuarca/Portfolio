@@ -214,6 +214,7 @@ header {
 
 .contact-container {
    background-color: #fdf1ff;
+   padding-bottom: 60px;
 }
 
 .rrss {
@@ -246,6 +247,64 @@ header {
 .rrss-icons img {
    width: 30px;
 }
+
+.form-container{
+   padding: 0px 60px;
+}
+
+.form-container h2 {
+   font-family: 'Paytone One', sans-serif;
+   font-size: 2rem;
+   margin-bottom: 40px;
+}
+
+.form-container div input {
+   border-radius: 10px;
+   background-color: #fff;
+   border: solid 1px #baa2fc;
+   width: 300px;
+   height: 30px;
+}
+
+.form-container div {
+   margin-bottom: 10px;
+}
+
+.form-container div label {
+   font-family: 'Raleway', sans-serif;
+   color: #7b49c0;
+}
+
+.text-form {
+   border-radius: 10px;
+   margin: 10px 16px;
+   resize: none;
+   background-color: #fff;
+   border: solid 1px #baa2fc;
+   font-family: 'Raleway', sans-serif;
+   color: #acabb0;
+   width: 300px;
+}
+
+.form-name {
+   margin-left: 28px;
+}
+
+.form-mail {
+   margin-left: 44px;
+}
+
+#button-send {
+   width: 120px;
+   height: 40px;
+   border-radius: 20px;
+   background-color: #7b49c0;
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
+   font-size: 0.9rem;
+   margin-left: 80px;
+}
+
 
  @media (min-width: 900px) {
     
