@@ -305,6 +305,35 @@ header {
    margin-left: 80px;
 }
 
+/* Footer*/
+
+footer {
+   background: linear-gradient(to bottom, #a383fb, #baa2fc );
+}
+
+footer p {
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
+   font-size: 0.9rem;
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.footer-sections {
+   display: none;
+}
+
+.footer-icons {
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+.github{
+   width: 30px;
+}
+
 
  @media (min-width: 900px) {
     
