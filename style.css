@@ -128,7 +128,7 @@ header {
 }
 
  .tools-containers img {
-   width: 80px;
+   width: 60px;
    padding-top: 50px;
    margin: auto;
  }
@@ -197,7 +197,7 @@ header {
 
 .projects-grid div img {
    margin: auto;
-   width: 80px;
+   width: 60px;
    padding-top: 50px;
 }
 
@@ -359,7 +359,7 @@ footer p {
         font-size: 1.5rem;
         list-style: none;
         justify-content: flex-end;
-        gap: 4%;
+        gap: 50px;
         align-items: center;
     }
     
@@ -372,27 +372,29 @@ footer p {
      }
 
      /*seccion presentacion*/
+     .presentation-general {
+         height: 100vh;
+     }
 
      .presentation {
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
         grid-gap: 10px;
         margin: auto;
-        margin-top: 100px;
-        margin-bottom: 140px;
+        padding-top: 100px;
+        max-width: 1100px;
         align-content: center;
      }
 
      .dates-container {
-      display: flex;
-      flex-direction: column;
-        
-    }
+      text-align: center;
+      padding-top: 50px;
+     }
 
      .hello {
         font-family: 'Paytone One', sans-serif;
         color: black;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 600;
         justify-content: center;
         margin-top: 50px;
@@ -402,7 +404,7 @@ footer p {
      h1 {
         font-family: 'Paytone One', sans-serif;
         color: #7b49c0;
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 800;
         justify-content: center;
         margin-bottom: 15px;
@@ -411,8 +413,8 @@ footer p {
      .presentation p {
         font-family: 'Raleway', sans-serif;
         justify-content: center;
-        margin-bottom: 20px;
-        font-size: 1.5rem;
+        margin-bottom: 50px;
+        font-size: 1rem;
      }
 
     .presentation a {
@@ -421,10 +423,10 @@ footer p {
         color: #fff;
         background-color: #7b49c0;
         border-radius: 50px;
-        width: 200px;
+        width: 180px;
         height: 50px;
-        padding-top: 12px;
-        font-size: 1.2rem; 
+        padding-top: 15px;
+        font-size: 1rem; 
      }
      
      .img-container {
@@ -434,27 +436,44 @@ footer p {
      }
 
      .presentation-img {
-        width: 650px;
-        height: 650px;
-        border-radius: 50px;
+        width: 400px;
+        height: 400px;
      }
+
+     /*Knowledges*/
 
      .tools-containers {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 2%;
-      margin: 20px 100px;
+      margin: auto;
       justify-content: center;
       align-content: center;
       max-width: 800px;
+     }
 
- 
+      /*projects*/
 
+      .projects-grid {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         justify-content: center;
+         align-content: center;
+         max-width: 800px;
+         margin: auto;
+         padding-top: 30px;
+         padding-bottom: 90px;
+      }
+     
+   /*contact*/
 
+      .contact {
+         background-color: #fdf1ff;
+      }
       .contact-container {
          display: grid;
          grid-template-columns: repeat(2, 1fr);
-         background-color: #fdf1ff;
+         max-width: 1100px;
+         margin: auto;
       }
       
       .contact-container div h2 {
@@ -466,10 +485,10 @@ footer p {
          font-family: 'Raleway', sans-serif;
          font-size: 0.8rem;
       }
-    
-   
 
-
-}
-
-
+      .form-container {
+         display: grid;
+         justify-content: center;
+         padding: 60px;
+         }
+   }
