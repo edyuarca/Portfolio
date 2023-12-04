@@ -233,8 +233,8 @@ header {
 }
 
 .rrss-icons {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   display: flex;
+   flex-direction: column;
    gap: 5px;
 }
 
@@ -242,6 +242,7 @@ header {
    text-decoration: none;
    font-family: 'Raleway', sans-serif;
    font-size: 0.9rem;
+   color: #7b49c0;
 }
 
 .rrss-icons img {
@@ -264,6 +265,7 @@ header {
    border: solid 1px #baa2fc;
    width: 300px;
    height: 30px;
+   padding-left: 10px;
 }
 
 .form-container div {
@@ -277,7 +279,7 @@ header {
 
 .text-form {
    border-radius: 10px;
-   margin: 10px 16px;
+   margin: 10px 0px;
    resize: none;
    background-color: #fff;
    border: solid 1px #baa2fc;
@@ -286,13 +288,6 @@ header {
    width: 300px;
 }
 
-.form-name {
-   margin-left: 28px;
-}
-
-.form-mail {
-   margin-left: 44px;
-}
 
 #button-send {
    width: 120px;
@@ -302,7 +297,8 @@ header {
    color: #fff;
    font-family: 'Raleway', sans-serif;
    font-size: 0.9rem;
-   margin-left: 80px;
+   margin-left: 82px;
+   padding-right: 10px;
 }
 
 /* Footer*/
@@ -486,11 +482,34 @@ footer p {
          font-size: 0.8rem;
       }
 
+      .rrss-icons {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 5px;
+      }
+
       .form-container {
          display: grid;
          justify-content: center;
          padding: 60px;
          }
+
+      .text-form {
+         border-radius: 10px;
+         resize: none;
+         background-color: #fff;
+         border: solid 1px #baa2fc;
+         font-family: 'Raleway', sans-serif;
+         color: #acabb0;
+         width: 300px;
+         padding: 10px;
+      }
+
+      .form-text {
+         display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      }
 
       /*footer*/
 
