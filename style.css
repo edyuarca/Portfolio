@@ -13,11 +13,7 @@ body {
 /*menú responsive*/
 
 header {
-   position: sticky;
-   top: 0;
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(to bottom, #a383fb, #baa2fc );
+   display: none;
 }
 
 /*seccion presentacion*/
@@ -48,10 +44,6 @@ header {
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 15px;
- }
-
- .menu {
-    display: none;
  }
 
  .presentation p {
@@ -88,6 +80,7 @@ header {
     background-color: #fdf1ff;
     width: 100%;
     padding-bottom: 80px;
+    scroll-margin-top: 80px;
 }
 
 .description-container {
@@ -181,12 +174,12 @@ header {
 
 .projects-grid {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    justify-content: center;
-    align-content: center;
-    max-width: 1100px;
-    margin: 60px;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 10px;
+   justify-content: center;
+   align-content: center;
+   max-width: 300px;
+   margin: auto;
 }
 
 .projects-grid div {
@@ -195,9 +188,12 @@ header {
    justify-content: center;
 }
 
+.projects-grid div a {
+   margin: auto;
+}
+
 .projects-grid div img {
    margin: auto;
-   width: 60px;
    padding-top: 50px;
 }
 
@@ -211,25 +207,33 @@ header {
 }
 
 /*Contact*/
+.contact {
+   margin: 50px;
+   scroll-margin-top: 80px;
+}
 
 .contact-container {
-   background-color: #fdf1ff;
-   padding-bottom: 60px;
+   background: linear-gradient(to bottom, #dbcdff, #d4cce9 );
+   padding: 60px;
+   border-radius: 20px;
 }
 
 .rrss {
-   padding: 60px;
+   padding: 50px 30px;
 }
 
 .rrss h2 {
    font-family: 'Paytone One', sans-serif;
    font-size: 2rem;
+   padding-left: 10px;
+   color: #7b49c0;
 }
 
 .rrss p {
    font-family: 'Raleway', sans-serif;
-   font-size: 1rem;
-   padding: 30px 0px;
+   font-size: 1.2rem;
+   padding: 30px 10px;
+   color: #7b49c0;
 }
 
 .rrss-icons {
@@ -243,38 +247,60 @@ header {
    font-family: 'Raleway', sans-serif;
    font-size: 0.9rem;
    color: #7b49c0;
+   padding: 0 15px 0 0;
 }
 
 .rrss-icons img {
-   width: 30px;
+   width: 50px;
+}
+
+.rrss-icons div {
+   display: flex;
+   align-items: center;
+}
+
+.rrss-icons div span {
+   font-family: 'Raleway', sans-serif;
+   font-size: 0.9rem;
+   color: #9974ff;   
+   font-weight: bold;
 }
 
 .form-container{
-   padding: 0px 60px;
+   padding: 0px 30px;
 }
 
 .form-container h2 {
    font-family: 'Paytone One', sans-serif;
    font-size: 2rem;
-   margin-bottom: 40px;
+   margin-bottom: 30px;
+   color: #7b49c0;
 }
 
 .form-container div input {
    border-radius: 10px;
    background-color: #fff;
    border: solid 1px #baa2fc;
-   width: 300px;
+   width: 100%;
    height: 30px;
    padding-left: 10px;
 }
 
 .form-container div {
    margin-bottom: 10px;
+   width: 100%;
 }
+
+/* .form-container div div {
+   display: flex;
+} */
 
 .form-container div label {
    font-family: 'Raleway', sans-serif;
    color: #7b49c0;
+   padding: 5px 0;
+   display: grid;
+   align-content: center;
 }
 
 .text-form {
@@ -285,7 +311,9 @@ header {
    border: solid 1px #baa2fc;
    font-family: 'Raleway', sans-serif;
    color: #acabb0;
-   width: 300px;
+   width: 100%;
+   padding-top: 10px;
+   padding-left: 10px;
 }
 
 
@@ -297,7 +325,6 @@ header {
    color: #fff;
    font-family: 'Raleway', sans-serif;
    font-size: 0.9rem;
-   margin-left: 82px;
    padding-right: 10px;
 }
 
@@ -336,15 +363,23 @@ footer p {
     /*menú desktop*/
 
     header {
-        width: 100%;
-        height: 100px;
-        background: linear-gradient(to bottom, #a383fb, #baa2fc );
+      width: 100%;
+      height: 100px;
+      background: linear-gradient(to bottom, #a383fb, #baa2fc );
+      display: block;
+      position: sticky;
+      top: 0;
     }
     
     li a {
         text-decoration: none;
         color: #fff;
     } 
+
+    li a:hover {
+         text-decoration: underline;
+         color: #fff;
+    }
 
     .menu {
         width: 100%;
@@ -370,6 +405,7 @@ footer p {
      /*seccion presentacion*/
      .presentation-general {
          height: 100vh;
+         display: grid;
      }
 
      .presentation {
@@ -377,14 +413,14 @@ footer p {
         grid-template-columns: repeat(2 , 1fr);
         grid-gap: 10px;
         margin: auto;
-        padding-top: 100px;
         max-width: 1100px;
-        align-content: center;
      }
 
      .dates-container {
-      text-align: center;
+      text-align: left;
+      align-items: center;
       padding-top: 50px;
+      justify-self: center;
      }
 
      .hello {
@@ -392,9 +428,7 @@ footer p {
         color: black;
         font-size: 2.5rem;
         font-weight: 600;
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 10px;
+
      }
     
      h1 {
@@ -432,8 +466,8 @@ footer p {
      }
 
      .presentation-img {
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
      }
 
      /*Knowledges*/
@@ -445,6 +479,11 @@ footer p {
       justify-content: center;
       align-content: center;
       max-width: 800px;
+     }
+
+     .motivational-phrase
+     {
+      scroll-margin-top: 80px;
      }
 
       /*projects*/
@@ -463,36 +502,52 @@ footer p {
    /*contact*/
 
       .contact {
-         background-color: #fdf1ff;
+         padding: 100px;
+         margin-top: 0;
       }
       .contact-container {
          display: grid;
          grid-template-columns: repeat(2, 1fr);
-         max-width: 1100px;
-         margin: auto;
+         gap: 50px;
       }
       
       .contact-container div h2 {
          font-family: 'Paytone One', sans-serif;
          font-size: 2rem;
+         padding-left: 10px;
+         color: #7b49c0;
       }
       
       .contact-container p {
          font-family: 'Raleway', sans-serif;
-         font-size: 0.8rem;
+         font-size: 1rem;
       }
+
+      .rrss {
+         padding: 0px 30px;
+      } 
 
       .rrss-icons {
          display: grid;
-         grid-template-columns: repeat(2, 1fr);
-         gap: 5px;
+         grid-template-columns: repeat(1, 1fr);
+         gap: 15px;
+      }
+
+      .form-gnl-container {
+         border: 1px solid #7b49c0;
+         max-width: 1100px;
+         margin: auto;
+         border-radius: 20px;
       }
 
       .form-container {
          display: grid;
-         justify-content: center;
-         padding: 60px;
+         justify-content: stretch;
          }
+
+      /*.form-container div {
+         display: flex;
+      }*/
 
       .text-form {
          border-radius: 10px;
@@ -501,7 +556,7 @@ footer p {
          border: solid 1px #baa2fc;
          font-family: 'Raleway', sans-serif;
          color: #acabb0;
-         width: 300px;
+         width: 100%;
          padding: 10px;
       }
 

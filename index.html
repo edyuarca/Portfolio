@@ -9,14 +9,14 @@
 <body> 
     <!--Menú -->
     <header>
-       
-         <ul class="menu">
-            <li><a href="#presentation-menu">Hello</a></li>
-            <li><a href="#knowledge-menu">Knowledge</a></li>
-            <li><a href="#projects-menu">Projects</a></li>
-            <li class="contact-button"><a href="#contact-menu">Contact</a></li>
-        </ul>
-        
+        <nav>
+            <ul class="menu">
+                <li><a href="#presentation-menu">Hello</a></li>
+                <li><a href="#knowledge-menu">Knowledge</a></li>
+                <li><a href="#projects-menu">Projects</a></li>
+                <li class="contact-button"><a href="#contact-menu">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!--Presentation -->
@@ -26,7 +26,7 @@
                 <h2 class="hello">Hi! I'm</h2>
                 <h1>Yulieth Ariza</h1>
                 <p>Ux Designer and developer, cats lover.</p>
-                <a href="#">My job</a>
+                <a href="#projects-menu">My job</a>
             </div>
 
             <div class="img-container">
@@ -85,7 +85,7 @@
     </section>
 
     <!--Motivational Phrase -->
-    <section class="motivational-phrase">
+    <section class="motivational-phrase" id="projects-menu">
         <img src="imagenes/marks.png" alt="quotation marks" class="quotation-mark">
         <p>
             “Design is not art. It is about crafting solutions to real issues.”        </p>
@@ -93,37 +93,37 @@
     </section>
 
     <!--Projects -->
-    <section class="projects-container" id="projects-menu">
+    <section class="projects-container">
         <h2>My projects</h2>
 
         <div class="projects-grid">
             <div>
-                <img src="imagenes/portfolio-icon.png" alt="Portfolio image">
+                <a href="https://github.com/edyuarca/Portfolio" target="_blank"></a><img src="imagenes/portfolio-icon.png" alt="Portfolio image">
                 <h3>Portfolio</h3>
             </div>
 
             <div>
-                <img src="imagenes/masterconsultas-icon.png" alt="masterconsultas">
-                <h3>Masterconsultas</h3>
+                <a href="https://www.behance.net/gallery/116834461/UXUI-Rediseno-Masterconsultas-2021" target="_blank"><img src="imagenes/masterconsultas-icon.png" alt="masterconsultas"></a>
+                    <h3>Masterconsultas</h3></a>
             </div>
 
             <div>
-                <img src="imagenes/agrolibre-icon.png" alt="agrolibre">
+                <a href="https://www.behance.net/gallery/129505891/Proyecto-Agro-Libre-2020" target="_blank"><img src="imagenes/agrolibre-icon.png" alt="agrolibre"></a>
                 <h3>Agro libre</h3>
             </div>
 
             <div>
-                <img src="imagenes/fanpage-icon.png" alt="Fanpage">
+                <a href="https://edyuarca.github.io/desarrolloweb-coder/" target="_blank"><img src="imagenes/fanpage-icon.png" alt="Fanpage"></a>
                 <h3>Fanpage</h3>
             </div>
 
             <div>
-                <img src="imagenes/foto-icon.png" alt="Photography">
+                <a href="#"><img src="imagenes/foto-icon.png" alt="Photography"></a>
                 <h3>Photography</h3>
             </div>
 
             <div>
-                <img src="imagenes/expenses-icon.png" alt="Expensecontroller">
+                <a href="#"><img src="imagenes/expenses-icon.png" alt="Expensecontroller"></a>
                 <h3>Expense controller</h3>
             </div>
         </div>
@@ -131,69 +131,78 @@
 
     <!--Contact -->
     <section class="contact" id="contact-menu">
-        <div class="contact-container">
-        <div class="rrss">
-            <h2>Contact me</h2>
-             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maxime natus et consequuntur eveniet iste nobis, dolores perspiciatis, eum quibusdam suscipit voluptatibus fugiat voluptatem necessitatibus quod rerum minima, sint reiciendis!
-             </p>
-             
-             <div class="rrss-icons">
-                <a href="https://www.behance.net/yuliethariza"><img src="imagenes/behance-icon.png" alt="Behance YuliethAriza">behace.com/yuliethariza</a>
-                <a href="https://github.com/edyuarca"><img src="imagenes/github-icon.png" alt="Github YuliethAriza">github.com/edyuarca</a>
-                <a href="https://www.linkedin.com/in/yulieth-ariza/"><img src="imagenes/linkedin-icon.png" alt="linkedIn YuliethAriza">linkedin.com/yuliethariza</a>
-                <a href=""><img src="imagenes/gmail-icon.png" alt="email YuliethAriza">edna.yulieth.ariza@gmail.com</a>
+        <div class="form-gnl-container">
+            <div class="contact-container">
+            <div class="rrss">
+                <h2>Contact me</h2>
+                <p>
+                    If you liked my work, you can find me in the following social channels
+                </p>
+                
+                <div class="rrss-icons">
+                    <div>
+                        <a href="https://www.behance.net/yuliethariza"><img src="imagenes/behance-icon.png" alt="Behance YuliethAriza"></a><span>behance.net/yuliethariza</span>
+                    </div>
+                    <div>
+                        <a href="https://github.com/edyuarca"><img src="imagenes/github-icon.png" alt="Github YuliethAriza"></a><span>Edyuarca</span>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/yulieth-ariza/"><img src="imagenes/linkedin-icon.png" alt="linkedIn YuliethAriza"></a><span>Yulieth Ariza</span>
+                    </div>
+                    <div>
+                        <a href="mailto:edna.yulieth.ariza@gmail.com"><img src="imagenes/gmail-icon.png" alt="email YuliethAriza"></a><span>edna.yulieth.ariza@gmail.com</span>
+                    </div>
+                </div>
             </div>
-        </div>
 
-       <form action="thanks.html" class="form-container">
+            <form action="thanks.html" class="form-container">
 
-            <h2>Write me</h2>
+                <h2>Write me</h2>
+                
+                <div class="form-text">
+                    <div>
+                        <label for="imput_name">Name *</label>
+                        <input type="text"
+                        placeholder="p.ej.Juan"
+                        name="name"
+                        class="form-name"
+                        id="imput_name"
+                        required
+                        >   
+                    </div>
+
+                    <div>
+                        <label for="imput_lastname">Lastname *</label>
+                        <input type="text"
+                        placeholder="p.ej.Perez"
+                        name="lastname"
+                        class=""
+                        id="imput_lastname"
+                        required
+                        >   
+                    </div>
+
+                    <div>
+                        <label for="imput_mail">Mail *</label>
+                        <input type="email"
+                        placeholder="p.ej.Juan.perez@mail.com"
+                        name="mail"
+                        class="form-mail"
+                        id="imput_mail"
+                        required
+                        >   
+                    </div>
+                
+                    <div>
+                        <label for="imput_text">Message</label>
+                        <textarea name="message" id="imput_text" cols="30" rows="10" class="text-form">Write your message here</textarea>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Send" id="button-send">
+                </div>
+            </form>
             
-            <div class="form-text">
-                <div>
-                    <label for="imput_name">Name *</label>
-                    <input type="text"
-                    placeholder="p.ej.Juan"
-                    name="name"
-                    class="form-name"
-                    id="imput_name"
-                    required
-                    >   
-                </div>
-
-                <div>
-                    <label for="imput_lastname">Lastname *</label>
-                    <input type="text"
-                    placeholder="p.ej.Perez"
-                    name="lastname"
-                    class=""
-                    id="imput_lastname"
-                    required
-                    >   
-                </div>
-
-                <div>
-                    <label for="imput_mail">Mail *</label>
-                    <input type="text"
-                    placeholder="p.ej.Juan.perez@mail.com"
-                    name="mail"
-                    class="form-mail"
-                    id="imput_mail"
-                    required
-                    >   
-                </div>
-            
-                <div>
-                    <label for="imput_text">Message</label>
-                    <textarea name="message" id="imput_text" cols="30" rows="10" class="text-form">Write your message here</textarea>
-                </div>
-            </div>
-            <div>
-                <input type="submit" value="Send" id="button-send">
-            </div>
-        
-       </form>
         </div>
     </section>
 
@@ -206,10 +215,10 @@
             <li><a href="#contact-menu">CONTACT</a></li>
         </ul>
         <div class="footer-icons">
-            <a href=""><img src="imagenes/icon-behance.svg" alt="Behance YuliethAriza"></a>
-            <a href=""><img src="imagenes/icon-github.svg" alt="Github YuliethAriza" class="github"></a>
-            <a href=""><img src="imagenes/icons-linkedin.svg" alt="linkedIn YuliethAriza"></a>
-            <a href=""><img src="imagenes/icons-gmail.svg" alt="email YuliethAriza"></a>
+            <a href="https://www.behance.net/yuliethariza"><img src="imagenes/icon-behance.svg" alt="Behance YuliethAriza"></a>
+            <a href="https://github.com/edyuarca"><img src="imagenes/icon-github.svg" alt="Github YuliethAriza" class="github"></a>
+            <a href="https://www.linkedin.com/in/yulieth-ariza/"><img src="imagenes/icons-linkedin.svg" alt="linkedIn YuliethAriza"></a>
+            <a href="mailto:edna.yulieth.ariza@gmail.com"><img src="imagenes/icons-gmail.svg" alt="email YuliethAriza"></a>
         </div>
         <p>Hecho con ❤️ por Yuli </p>
     </footer>
