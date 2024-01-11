@@ -376,9 +376,12 @@ footer p {
         color: #fff;
     } 
 
-    li a:hover {
-         text-decoration: underline;
-         color: #fff;
+    .hover-menu:hover {
+         border-bottom: 1px solid transparent;
+         transition: border-bottom-color 0.5s ease;
+         border-bottom-color: #fff;
+         transition: font-size 0.5s ;
+         font-size: 1.6rem;
     }
 
     .menu {
@@ -399,7 +402,6 @@ footer p {
         padding: 12px 40px;
         background-color: #7b49c0 ;
         border-radius: 50px;
-    
      }
 
      /*seccion presentacion*/
