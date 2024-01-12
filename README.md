@@ -8,6 +8,7 @@ _El código está dise;ado en mobile first con cinco secciones para pantallas ch
 
 ## Barra de navegación 
 
+![menu-desktop](https://github.com/edyuarca/Portfolio/assets/71739451/0042b482-c03d-4234-b543-f7b517bd65e8)
 
 
 
