@@ -10,17 +10,20 @@ _El código está dise;ado en mobile first con cinco secciones para pantallas ch
 
 ![menu-desktop](https://github.com/edyuarca/Portfolio/assets/71739451/0042b482-c03d-4234-b543-f7b517bd65e8)
 
-Esta sección del HTML con su correspondiente pseudo clase _:hover_ para cambiar los estilos al pasar el cursor sobre cada una de las secciones se pensó con el fin de que el usuario que ingrese sepa a qué parte del sitio se va a girigir antes de clickear. 
+Esta sección del HTML con su correspondiente pseudo clase *:hover* para cambiar los estilos al pasar el cursor sobre cada una de las secciones se pensó con el fin de que el usuario que ingrese sepa a qué parte del sitio se va a girigir antes de clickear. 
 
-Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de _box shadow_ para captar la atención en el caso de que quien navegue por el sitio quiera encontrar rapidamente los canales de contacto, ya sean las redes sociales o por mensaje directo.
+Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de *box shadow* para captar la atención en el caso de que quien navegue por el sitio quiera encontrar rapidamente los canales de contacto, ya sean las redes sociales o por mensaje directo.
 
 >Por ahora la versión mobile no cuenta con un menú, espero proxiamente agregar el menú hamburguesa con javascript.
 
 <br>
 
 ## Presentación 
+ 
+ En la versión desktop se puede ver el botón de **Mi trabajo** con el mismo efecto Box Shadow y directamente trasladará al usuario a los diferentes proyectos realizados:
+ 
+ ![presentación desktop](https://github.com/edyuarca/Portfolio/assets/71739451/32567d68-2c74-4a52-945a-f5cb8502cf05) 
 
+ En mobile al ser tan pocas secciones solo se muestra lo que considero que veería un posible usuario interesado que sería los proyectos hasta la fecha, por lo tanto el botón centrado y visible invita a enfocarse en ese punto. 
+<img width="400" alt="inicio mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/93cb491c-47ef-4584-8f7a-ed2563b2b9bd">
 
-
-<img width="600" alt="inicio desktop" src="https://github.com/edyuarca/Portfolio/assets/71739451/2ad58545-5baa-4c27-9bff-f24b317fb23b">
-<img width="298" alt="presentacion-mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/0a58eb59-4e54-4f9f-881f-0def3f53641f">
