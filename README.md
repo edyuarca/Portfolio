@@ -22,3 +22,5 @@ Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de _box 
 
 
 
+<img width="500" alt="inicio desktop" src="https://github.com/edyuarca/Portfolio/assets/71739451/2ad58545-5baa-4c27-9bff-f24b317fb23b">
+<img width="250" alt="presentacion-mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/0a58eb59-4e54-4f9f-881f-0def3f53641f">
