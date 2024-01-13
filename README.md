@@ -39,7 +39,8 @@ Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de *box 
 
 ## Conocimientos y Proyectos 
 
-* En la versión desktop ......
+* En la versión desktop
+  
 ![conocimientos](https://github.com/edyuarca/Portfolio/assets/71739451/fa426052-5f1c-430f-9850-68aa8e082af3)
 ![proyectos](https://github.com/edyuarca/Portfolio/assets/71739451/53f510ba-2d70-4244-8020-0153e4158370)
 
