@@ -21,12 +21,17 @@ Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de *box 
 ## Presentación 
  
 * En la versión desktop se puede ver el botón de **Mi trabajo** con el mismo efecto Box Shadow y directamente trasladará al usuario a los diferentes proyectos realizados.
+> Se hizo uso de grillas para organizar los elementos y centrarlos.
  
  ![presentación desktop](https://github.com/edyuarca/Portfolio/assets/71739451/32567d68-2c74-4a52-945a-f5cb8502cf05) 
 
  <br>
 
 * Se consideró dejar bastante llamativo el botón en la versión mobile ya que al realizarse una vista rápida desde el celular el usuario se enfocaría directamente en ver los trabajos realizados y decidir "rapidamente" contactar o no.
+> La organización de los elementos se realizó con FlexBox 
  
 <img width="400" alt="inicio mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/93cb491c-47ef-4584-8f7a-ed2563b2b9bd">
 
+<br>
+
+## Conocimientos y Proyectos
