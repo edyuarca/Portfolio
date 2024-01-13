@@ -33,6 +33,7 @@ Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de *box 
 <img width="400" alt="inicio mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/93cb491c-47ef-4584-8f7a-ed2563b2b9bd">
 
 <br>
+> :memo: **Note:** *Personalmente creo que es más cómodo trabajar con Grid porque es bastante versatil y ofrece mejor distribución del espacio cuando el dise;o de un sitio se comienza a acomplejar.
 
 ## Conocimientos y Proyectos
 
