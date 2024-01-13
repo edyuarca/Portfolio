@@ -11,7 +11,7 @@ _El código está dise;ado en mobile first con cinco secciones para pantallas ch
 ![menu-desktop](https://github.com/edyuarca/Portfolio/assets/71739451/0042b482-c03d-4234-b543-f7b517bd65e8)
 
 Esta sección del HTML con su correspondiente pseudo clase :hover para cambiar los estilos al pasar el cursor sobre cada una de las secciones se pensó con el fin de que el usuario que ingrese sepa a qué parte del sitio se va a girigir antes de clickear. 
-
+> Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de _box shadow_ para captar la atención en el caso de que quien navegue por el sitio quiera encontrar rapidamente los canales de contacto, ya sean las redes sociales o por mensaje directo. 
 
 
 
