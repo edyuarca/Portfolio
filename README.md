@@ -53,7 +53,8 @@ En ambas versiones ademas de usar grid, box shadow y transition cómo en las sec
 
 <br>
 
-> :memo: En la sección de proyectos se encuentran linkeados los trabajos mas importantes que realicé en materia UX. "Agro libre", un app pensada para reunir tiendas y vendedores de alimentos orgánicos en Capital Federal y "Masterconsultas", el re dise;o de la página web de Mastercard. Todo el proceso de modificaciones y mejoras de este último se realizaron en base a una investigación con diferentes usuarios del sitio, teniendo en cuenta las necesidades y posibilidades de negocio.
+### Comentario
+> *En la sección de proyectos se encuentran linkeados los trabajos mas importantes que realicé en materia UX. "Agro libre", un app pensada para reunir tiendas y vendedores de alimentos orgánicos en Capital Federal y "Masterconsultas", el re dise;o de la página web de Mastercard. Todo el proceso de modificaciones y mejoras de este último se realizaron en base a una investigación con diferentes usuarios del sitio, teniendo en cuenta las necesidades y posibilidades de negocio.*
 
 
 
