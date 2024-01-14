@@ -12,7 +12,7 @@ _El código está dise;ado en mobile first con cinco secciones para pantallas ch
 
 Esta sección del HTML con su correspondiente pseudo clase *:hover* para cambiar los estilos al pasar el cursor sobre cada una de las secciones se pensó con el fin de que el usuario que ingrese sepa a qué parte del sitio se va a girigir antes de clickear. 
 
-Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de *box shadow* para captar la atención en el caso de que quien navegue por el sitio quiera encontrar rapidamente los canales de contacto, ya sean las redes sociales o por mensaje directo.
+Cabe resaltar que el botón de contacto se dise;ó con un efecto trasero de *box shadow* para captar la atención en el caso de que quien navegue por el sitio quiera encontrar rapidamente los canales de contacto, ya sean las redes sociales o por mensaje directo.
 
 >Por ahora la versión mobile no cuenta con un menú, espero proxiamente agregar el menú hamburguesa con javascript.
 
@@ -20,7 +20,7 @@ Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de *box 
 
 ## Presentación 
  
-* En la versión desktop se puede ver el botón de **Mi trabajo** con el mismo efecto Box Shadow y directamente trasladará al usuario a los diferentes proyectos realizados.
+* En la versión desktop se puede ver el botón de **Mi trabajo** con el mismo efecto Box Shadow el cual trasladará al usuario directamente a los diferentes proyectos realizados.
 > Se hizo uso de grillas para organizar los elementos y centrarlos.
  
  ![presentación desktop](https://github.com/edyuarca/Portfolio/assets/71739451/32567d68-2c74-4a52-945a-f5cb8502cf05) 
@@ -39,14 +39,14 @@ Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de *box 
 
 ## Conocimientos y Proyectos 
 
-En ambas versiones ademas de usar grid, box shadow y transition cómo en las secciones anteriores se usa el elemento transform para aumentar el tama;o de cada card.  
+En ambas versiones ademas de usar grid, box shadow y transition cómo en las secciones anteriores se usó el elemento transform para aumentar el tama;o de cada card.  
   
 ![conocimientos](https://github.com/edyuarca/Portfolio/assets/71739451/fa426052-5f1c-430f-9850-68aa8e082af3)
 ![proyectos](https://github.com/edyuarca/Portfolio/assets/71739451/53f510ba-2d70-4244-8020-0153e4158370)
 
 <br>
 
-*En la versión mobile se mantienen la mismas características salvo las columnas, se estableció en una sola para facilitar la visualización en pantallas chicas. 
+> En la versión mobile se mantienen la mismas características salvo las columnas, se establecieron dos en la sección de conocimientos y una sola en **Mis proyectos** para facilitar la visualización en pantallas chicas. 
 
 
 
