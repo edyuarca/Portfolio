@@ -239,7 +239,7 @@ header {
 }
 
 .rrss {
-   padding: 50px 30px;
+   padding-bottom: 30px;
 }
 
 .rrss h2 {
@@ -267,7 +267,6 @@ header {
    font-family: 'Raleway', sans-serif;
    font-size: 0.9rem;
    color: #7b49c0;
-   padding: 0 15px 0 0;
 }
 
 .rrss-icons img {
@@ -280,6 +279,7 @@ header {
 
 .rrss-icons div {
    display: flex;
+   flex-direction: column;
    align-items: center;
 }
 
@@ -296,7 +296,7 @@ header {
 
 
 .form-container{
-   padding: 0px 30px;
+   padding: 30px;
 }
 
 .form-container h2 {
@@ -587,10 +587,28 @@ footer p {
          padding: 0px 30px;
       } 
 
+      /*.rrss {
+         padding: 50px 30px;
+      }*/
+
       .rrss-icons {
          display: grid;
          grid-template-columns: repeat(1, 1fr);
          gap: 15px;
+      }
+
+      .rrss-icons a {
+         text-decoration: none;
+         font-family: 'Raleway', sans-serif;
+         font-size: 0.9rem;
+         color: #7b49c0;
+         padding: 0px 15px 0 0;
+      }
+
+      .rrss-icons div {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
       }
 
       .form-gnl-container {
@@ -603,7 +621,8 @@ footer p {
       .form-container {
          display: grid;
          justify-content: stretch;
-         }
+         padding: 0 30px;
+      }
 
       /*.form-container div {
          display: flex;
