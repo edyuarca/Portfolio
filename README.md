@@ -65,7 +65,7 @@ En ambas versiones ademas de usar grid, box shadow y transition cómo en las sec
 Esta sección hecha con grid contiene la información de mis redes sociales y contiene nuavemente la pseudoclase :hover pero con el filtro de brillo par ajustar el tono y llamar la atención del usuario y que sepa a donde va a dirigirse al hacer click.
 
 Al costado derecho se encuentra el formulario de contacto con sus respectivos :focus, labels e id's y al finalizar se encuentra el botón "enviar" el cual lleva el mismo efecto que el resto de botones del sitio, 
- *(por ahora el botón está hecho con una etiqueta "a" y no con <button> ya que por ahora el sitio no cuenta con JS)*.
+ *(por ahora el botón está hecho con una etiqueta "a" y no con "button" ya que por ahora el sitio no cuenta con JS)*.
 
 <br>
 
