@@ -51,6 +51,10 @@ En ambas versiones ademas de usar grid, box shadow y transition cómo en las sec
 <img width="300" alt="conocimientos mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/754119e3-2396-45d0-a715-cc7cc887e8ed">
 <img width="278" alt="proyectos mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/a91c9651-27d1-4699-a15a-180a797c8f0b">
 
+<br>
+
+> :memo: En la sección de proyectos se encuentran linkeados los trabajos mas importantes que realicé en materia UX. "Agro libre", un app pensada para reunir tiendas y vendedores de alimentos orgánicos en Capital Federal y "Masterconsultas", el re dise;o de la página web de Mastercad, proyecto en el que los cambios se pensaron en base a necesidades de negocio y una investigacion con diferentes usuarios del sitio, allí se consigna brevemente el proceso de dichas modificaciones. 
+
 
 
 
