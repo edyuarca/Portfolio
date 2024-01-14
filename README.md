@@ -46,17 +46,10 @@ En ambas versiones ademas de usar grid, box shadow y transition cómo en las sec
 
 <br>
 
-> En la versión mobile se mantienen la mismas características salvo las columnas, se establecieron dos en la sección de conocimientos y una sola en **Mis proyectos** para facilitar la visualización en pantallas chicas. 
+* En la versión mobile se mantienen la mismas características salvo las columnas, se establecieron dos en la sección de conocimientos y una sola en **Mis proyectos** para facilitar la visualización en pantallas chicas. 
 
-
-
-
-
-
-
-
-
-
+<img width="300" alt="conocimientos mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/754119e3-2396-45d0-a715-cc7cc887e8ed">
+<img width="278" alt="proyectos mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/a91c9651-27d1-4699-a15a-180a797c8f0b">
 
 
 
