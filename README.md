@@ -39,14 +39,14 @@ Cabe resaltar que el botón de contacto se dise;o con un efecto trasero de *box 
 
 ## Conocimientos y Proyectos 
 
-* En la versión desktop
+En ambas versiones ademas de usar grid, box shadow y transition cómo en las secciones anteriores se usa el elemento transform para aumentar el tama;o de cada card.  
   
 ![conocimientos](https://github.com/edyuarca/Portfolio/assets/71739451/fa426052-5f1c-430f-9850-68aa8e082af3)
 ![proyectos](https://github.com/edyuarca/Portfolio/assets/71739451/53f510ba-2d70-4244-8020-0153e4158370)
 
 <br>
 
-*En la versión mobile
+*En la versión mobile se mantienen la mismas características salvo las columnas, se estableció en una sola para facilitar la visualización en pantallas chicas. 
 
 
 
