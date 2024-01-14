@@ -67,11 +67,10 @@ Esta sección hecha con grid contiene la información de mis redes sociales y co
 Al costado derecho se encuentra el formulario de contacto con sus respectivos :focus, labels e id's y al finalizar se encuentra el botón "enviar" el cual lleva el mismo efecto que el resto de botones del sitio, 
  *(por ahora el botón está hecho con una etiqueta "a" y no con "button" ya que por ahora el sitio no cuenta con JS)*.
 
-<br>
-
-## Comentario 
+### Comentario 
 > La página también cuenta con un footer que contiene los mismos efectos que la barra de navegación y direcciona a las mismas secciones. 
 
+<br>
 
 Muchas gracias por llegar hasta acá y espero que haya sido de tu agrado! 
 
