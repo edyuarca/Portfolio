@@ -54,10 +54,25 @@ En ambas versiones ademas de usar grid, box shadow y transition cómo en las sec
 <br>
 
 ### Comentario
-> *En la sección de proyectos se encuentran enlazados dos de los trabajos mas importantes que realicé en materia UX. Uno de ellos es "Agro libre", una app pensada para conectar tiendas y vendedores de alimentos organicos con potenciales clientess en Capital Federal  y el otro es "Masterconsultas", el redise;o de la página web de Mastercard. Todo el proceso de modificaciones y mejoras de este último se realizaron en base a una investigación con diferentes usuarios del sitio teniendo en cuenta las necesidades y posibilidades de negocio.*
+> *En la sección de proyectos se encuentran enlazados dos de los trabajos mas importantes que realicé en materia UX. Uno de ellos es **"Agro libre"**, una app pensada para conectar tiendas y vendedores de alimentos organicos con potenciales clientes en Capital Federal  y el otro es **"Masterconsultas"**, el redise;o de la página web de Mastercard. Todo el proceso de modificaciones y mejoras de este último se realizaron en base a una investigación con diferentes usuarios del sitio teniendo en cuenta las necesidades y posibilidades de negocio.*
+
+<br>
+
+## Contacto 
+
+![formulario desktop](https://github.com/edyuarca/Portfolio/assets/71739451/97985c0f-0a1b-40a6-8ce2-887638015630) <img width="251" alt="formulario mobile" src="https://github.com/edyuarca/Portfolio/assets/71739451/97492f3d-fe8a-4175-820d-fad5ec2ff263">
+
+Esta sección hecha con grid contiene la información de mis redes sociales y contiene nuavemente la pseudoclase :hover pero con el filtro de brillo par ajustar el tono y llamar la atención del usuario y que sepa a donde va a dirigirse al hacer click.
+
+Al costado derecho se encuentra el formulario de contacto con sus respectivo :focus, labels e id's, al finalizar el botón de enviar tambien lleva el mismo efecto que el resto de botones del sitio. 
+
+<br>
+
+## Comentario 
+> La página también cuenta con un footer que contiene los mismos efectos que la barra de navegación y direcciona a las mismas secciones. 
 
 
-
+Muchas gracias por llegar hasta acá y espero que haya sido de tu agrado! 
 
 
 
