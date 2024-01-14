@@ -1,8 +1,8 @@
 # Portfolio 
 
-Este proyecto realizado en HTML y Css pretende poner en practica los conocimientos adquiridos en el inicio de mi carrera como programadora Front End y como dise;adora UX; por lo que consignaré aquí, poco a poco, los trabajos realizados y los desafios futuros a los que me enfrentaré en materia IT.
+Este proyecto realizado en HTML y Css pretende poner en practica los conocimientos adquiridos en el inicio de mi carrera como programadora Front End y como diseñadora UX; por lo que consignaré aquí, poco a poco, los trabajos realizados y los desafios futuros a los que me enfrentaré en materia IT.
 
-_El código está dise;ado en mobile first con cinco secciones para pantallas chicas y sesis secciones para el formato desktop las cuales se detalladarán a continuación:_
+_El código está diseñado en mobile first con cinco secciones para pantallas chicas y sesis secciones para el formato desktop las cuales se detalladarán a continuación:_
 
 <br>
 
@@ -12,7 +12,7 @@ _El código está dise;ado en mobile first con cinco secciones para pantallas ch
 
 Esta sección del HTML con su correspondiente pseudo clase *:hover* para cambiar los estilos al pasar el cursor sobre cada una de las secciones se pensó con el fin de que el usuario que ingrese sepa a qué parte del sitio se va a girigir antes de clickear. 
 
-Cabe resaltar que el botón de contacto se dise;ó con un efecto trasero de *box shadow* para captar la atención en el caso de que quien navegue por el sitio quiera encontrar rapidamente los canales de contacto, ya sean las redes sociales o por mensaje directo.
+Cabe resaltar que el botón de contacto se diseñó con un efecto trasero de *box shadow* para captar la atención en el caso de que quien navegue por el sitio quiera encontrar rapidamente los canales de contacto, ya sean las redes sociales o por mensaje directo.
 
 >Por ahora la versión mobile no cuenta con un menú, espero proxiamente agregar el menú hamburguesa con javascript.
 
@@ -39,7 +39,7 @@ Cabe resaltar que el botón de contacto se dise;ó con un efecto trasero de *box
 
 ## Conocimientos y Proyectos 
 
-En ambas versiones ademas de usar grid, box shadow y transition cómo en las secciones anteriores se usó el elemento transform para aumentar el tama;o de cada card.  
+En ambas versiones ademas de usar grid, box shadow y transition cómo en las secciones anteriores se usó el elemento transform para aumentar el tamaño de cada card.  
   
 ![conocimientos](https://github.com/edyuarca/Portfolio/assets/71739451/fa426052-5f1c-430f-9850-68aa8e082af3)
 ![proyectos](https://github.com/edyuarca/Portfolio/assets/71739451/53f510ba-2d70-4244-8020-0153e4158370)
@@ -54,7 +54,7 @@ En ambas versiones ademas de usar grid, box shadow y transition cómo en las sec
 <br>
 
 ### Comentario
-> *En la sección de proyectos se encuentran enlazados dos de los trabajos mas importantes que realicé en materia UX. Uno de ellos es **"Agro libre"**, una app pensada para conectar tiendas y vendedores de alimentos organicos con potenciales clientes en Capital Federal  y el otro es **"Masterconsultas"**, el redise;o de la página web de Mastercard. Todo el proceso de modificaciones y mejoras de este último se realizaron en base a una investigación con diferentes usuarios del sitio teniendo en cuenta las necesidades y posibilidades de negocio.*
+> *En la sección de proyectos se encuentran enlazados dos de los trabajos mas importantes que realicé en materia UX. Uno de ellos es **"Agro libre"**, una app pensada para conectar tiendas y vendedores de alimentos organicos con potenciales clientes en Capital Federal  y el otro es **"Masterconsultas"**, el rediseño de la página web de Mastercard. Todo el proceso de modificaciones y mejoras de este último se realizaron en base a una investigación con diferentes usuarios del sitio teniendo en cuenta las necesidades y posibilidades de negocio.*
 
 <br>
 
